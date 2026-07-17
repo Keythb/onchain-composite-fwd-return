@@ -46,7 +46,7 @@ footer{color:var(--mut);font-size:11px;text-align:center;border-top:1px solid va
 <header><h1>TON618<b>Capital</b> · On-Chain Composite → Forward 30-Day Return</h1>
 <span class="mut">As of 2026-07-16 10:08 UTC</span></header>
 
-<div class="note">First-pass weighted-average model. 51 predictions logged · 24 matured, 27 pending. Realized 30-day returns backfill as each reading ages 30 days. Direction hit-rate and error sharpen as the series matures.</div>
+<div class="note">First-pass weighted-average model. 51 predictions logged · 25 matured, 26 pending. Realized 30-day returns backfill as each reading ages 30 days. Direction hit-rate and error sharpen as the series matures.</div>
 
 <div class="grid">
  <div class="kpi"><div class="lab">Composite Score</div><div class="val">30.4</div>
@@ -55,8 +55,8 @@ footer{color:var(--mut);font-size:11px;text-align:center;border-top:1px solid va
    <div class="sub">Direction UP · target 2026-08-15</div></div>
  <div class="kpi"><div class="lab">BTC Spot</div><div class="val">$64,765</div>
    <div class="sub">composite source: btc-drawdown-monitor</div></div>
- <div class="kpi"><div class="lab">Track Record</div><div class="val">29.2%</div>
-   <div class="sub">24 matured / 27 pending · MAE 12.43%</div></div>
+ <div class="kpi"><div class="lab">Track Record</div><div class="val">28.0%</div>
+   <div class="sub">25 matured / 26 pending · MAE 12.23%</div></div>
 </div>
 
 <div class="cols">
@@ -93,7 +93,7 @@ footer{color:var(--mut);font-size:11px;text-align:center;border-top:1px solid va
 <tr><td>2026-06-14</td><td class='r'>30.5</td><td>LOW</td><td class='r'>$64,536</td><td class='r up'>+5.96%</td><td>UP</td><td>2026-07-14</td><td class='r'>$62,127</td><td class='r'>-3.73%</td><td><span class='b no'>MISS</span></td><td><span class='st matured'>MATURED</span></td></tr>
 <tr><td>2026-06-15</td><td class='r'>30.1</td><td>LOW</td><td class='r'>$65,615</td><td class='r up'>+6.11%</td><td>UP</td><td>2026-07-15</td><td class='r'>$64,934</td><td class='r'>-1.04%</td><td><span class='b no'>MISS</span></td><td><span class='st matured'>MATURED</span></td></tr>
 <tr><td>2026-06-16</td><td class='r'>30.2</td><td>LOW</td><td class='r'>$66,583</td><td class='r up'>+6.08%</td><td>UP</td><td>2026-07-16</td><td class='r'>$64,765</td><td class='r'>-2.73%</td><td><span class='b no'>MISS</span></td><td><span class='st matured'>MATURED</span></td></tr>
-<tr><td>2026-06-17</td><td class='r'>30.1</td><td>LOW</td><td class='r'>$65,638</td><td class='r up'>+6.11%</td><td>UP</td><td>2026-07-17</td><td class='r'>—</td><td class='r'>—</td><td><span class='b pend'>—</span></td><td><span class='st pending'>PENDING</span></td></tr>
+<tr><td>2026-06-17</td><td class='r'>30.1</td><td>LOW</td><td class='r'>$65,638</td><td class='r up'>+6.11%</td><td>UP</td><td>2026-07-17</td><td class='r'>$64,765</td><td class='r'>-1.33%</td><td><span class='b no'>MISS</span></td><td><span class='st matured'>MATURED</span></td></tr>
 <tr><td>2026-06-18</td><td class='r'>29.7</td><td>LOW</td><td class='r'>$64,003</td><td class='r up'>+6.27%</td><td>UP</td><td>2026-07-18</td><td class='r'>—</td><td class='r'>—</td><td><span class='b pend'>—</span></td><td><span class='st pending'>PENDING</span></td></tr>
 <tr><td>2026-06-19</td><td class='r'>29.5</td><td>LOW</td><td class='r'>$62,835</td><td class='r up'>+6.34%</td><td>UP</td><td>2026-07-19</td><td class='r'>—</td><td class='r'>—</td><td><span class='b pend'>—</span></td><td><span class='st pending'>PENDING</span></td></tr>
 <tr><td>2026-06-20</td><td class='r'>29.5</td><td>LOW</td><td class='r'>$63,307</td><td class='r up'>+6.34%</td><td>UP</td><td>2026-07-20</td><td class='r'>—</td><td class='r'>—</td><td><span class='b pend'>—</span></td><td><span class='st pending'>PENDING</span></td></tr>
@@ -136,11 +136,11 @@ footer{color:var(--mut);font-size:11px;text-align:center;border-top:1px solid va
 </div>
 <p class="small">Probability-weighted EV ≈ +4.9%, consistent with the model point estimate.</p>
 <h3>Risk Factors</h3>
-<p class="small">• <b>Model</b> — single-cycle calibration, not yet regression-fit; predictive power unproven until predictions mature (high likelihood, moderate impact). Track record to date: 24 matured / 27 pending, direction hit-rate 29.2%, MAE 12.43% — treat point estimates as directionally informative only, not calibrated. • <b>Data quality</b> — on-chain inputs are partially <b>estimated</b> (CoinMetrics / Blockchain.com / alternative.me unreachable in this environment; flagged in monitor source fields), biasing the on-chain category toward proxies (medium / medium). • <b>Liquidation cascade</b> — BTC-denominated OI ~98K BTC; clusters below $60–62K (medium / high).</p>
+<p class="small">• <b>Model</b> — single-cycle calibration, not yet regression-fit; predictive power unproven until predictions mature (high likelihood, moderate impact). Track record to date: 25 matured / 26 pending, direction hit-rate 28.0%, MAE 12.23% — treat point estimates as directionally informative only, not calibrated. • <b>Data quality</b> — on-chain inputs are partially <b>estimated</b> (CoinMetrics / Blockchain.com / alternative.me unreachable in this environment; flagged in monitor source fields), biasing the on-chain category toward proxies (medium / medium). • <b>Liquidation cascade</b> — BTC-denominated OI ~98K BTC; clusters below $60–62K (medium / high).</p>
 <h3>Recommendation</h3>
-<p>Maintain core long; opportunistic adds on stabilization above the deleveraging zone; avoid chasing. Revisit on composite re-rating &gt;50 (reduce) or a confirmed reclaim of $70K (add). Time horizon: 30 days. Thesis invalidation: sustained close below $58K on rising composite. Given the model's 29.2% direction hit-rate to date, size any incremental add conservatively pending regression recalibration.</p>
+<p>Maintain core long; opportunistic adds on stabilization above the deleveraging zone; avoid chasing. Revisit on composite re-rating &gt;50 (reduce) or a confirmed reclaim of $70K (add). Time horizon: 30 days. Thesis invalidation: sustained close below $58K on rising composite. Given the model's 28.0% direction hit-rate to date, size any incremental add conservatively pending regression recalibration.</p>
 <h3>Disclosures</h3>
-<p class="small">As-of 2026-07-16 10:08 UTC. Composite sourced from the <b>BTC Drawdown Monitor</b> (36-metric, 40/25/20/10/5 category weighting; read from btc_drawdown_data.json). On-chain valuation inputs are partially estimated due to data-egress limits and are labeled as such at source. Forward-return calibration is a first-pass weighted average, not a fitted regression; logistic regression on realized pairs is the planned upgrade — current track record (29.2% direction hit-rate, 12.43% MAE across 24 matured predictions) underscores the need for that upgrade. 24 of 51 predictions have matured to date. For internal use only; not investment advice. Past performance and modeled estimates are not indicative of future results.</p>
+<p class="small">As-of 2026-07-16 10:08 UTC. Composite sourced from the <b>BTC Drawdown Monitor</b> (36-metric, 40/25/20/10/5 category weighting; read from btc_drawdown_data.json). On-chain valuation inputs are partially estimated due to data-egress limits and are labeled as such at source. Forward-return calibration is a first-pass weighted average, not a fitted regression; logistic regression on realized pairs is the planned upgrade — current track record (28.0% direction hit-rate, 12.23% MAE across 25 matured predictions) underscores the need for that upgrade. 25 of 51 predictions have matured to date. For internal use only; not investment advice. Past performance and modeled estimates are not indicative of future results.</p>
 </div>
 
 <footer>TON618Capital · On-Chain Composite Forward-Return Tracker · updates each run</footer>
